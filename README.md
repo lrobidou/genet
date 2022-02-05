@@ -10,7 +10,7 @@ Lets say you want to retrieve all k-mers (substrings of fixed length k) from eve
 def generate_lines(filename):
     with open(filename, "r") as fichier:
         for ligne in fichier:
-            yield ligne
+            yield ligne.strip()
 
 
 def generate_kmers(reads, k):
