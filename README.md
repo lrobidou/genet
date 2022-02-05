@@ -68,7 +68,7 @@ def generate_kmers(reads, k):
 
 
 def main() -> None:
-    lines = iterate("a")
+    lines = iterate("lines")
     kmers = generate_kmers(lines, 5)
 
     for kmer in kmers:
