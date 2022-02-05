@@ -1,5 +1,5 @@
 from websockets.exceptions import ConnectionClosedError
-from websocket import connect
+from websockets import connect
 import asyncio
 import time
 from typing import Any, Tuple, AsyncGenerator
