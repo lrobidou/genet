@@ -1,6 +1,8 @@
 # genet [WIP]
 propel your python generators through network
 
+![Tests](https://github.com/lrobidou/genet/actions/workflows/tests.yml/badge.svg)
+
 In Python, we are able to chain iterators. Here is a simple example of how generators work:
 
 Lets say you want to retrieve all k-mers (substrings of fixed length k) from every line of a file. You could write:
